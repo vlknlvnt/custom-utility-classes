@@ -1,0 +1,78 @@
+:root {
+--green: #61BE6B;
+--bg-grey: #abbdd9;  
+--bg-orange: #f0c22b;  
+--bg-blue: #144973;
+--bg-yellow: #f0c22b;  
+--color-main: #6b0e22;
+--color-secondary: #693a04;
+--div-height: 400px;
+--inner-height: 200px;
+}
+
+.green-bg {
+background-color: var(--green);
+}
+.grey-bg {
+background-color: var(--bg-grey);
+}
+.blue-bg {
+ background-color: var(--bg-blue); 
+}
+.yellow-bg {
+ background-color: var(--bg-yellow); 
+}
+.color-main {
+color: var(--color-main);
+}
+.color-secondary {
+color: var(--color-secondary); 
+}
+.div-height {
+height: var(--div-height);
+}
+.inner-height {
+height: var(--inner-height);
+}
+.w-100 {
+width: 100%;
+}
+.w-50 {
+width: 50%;
+}
+.d-flex {
+display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.align-center {
+align-items: center;
+}
+.justify-center {
+justify-content: center;
+}
+.text-center {
+text-align: center;
+}
+.fontsize-1 { 
+  font-size: 36px; 
+}
+.fontsize-2 {
+  font-size: 18px;
+}
+
+@media (min-width: 992px) {
+  .w-lg-50 {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .bg-color-mobile {
+    background-color: var(--bg-orange);
+  }  
+  .flex-column {
+    flex-direction: column;
+  }
+}
